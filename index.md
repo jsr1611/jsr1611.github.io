@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Personal web page of Jumanazar Saidov </title>
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Hi there, I'm Jumanazar Saidov!</h1>
+				<p>I'm a software engineer from <em>Uzbekistan</em> currently working in South Korea.</p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:jumanazarsaidov@gmail.com">email</a></li>
+        		<li><a href="https://github.com/jsr1611">github.com/jsr1611</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
