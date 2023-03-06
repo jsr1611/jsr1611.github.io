@@ -1,4 +1,4 @@
-*{
+* {
     background-color: #fafafa;
 }
 body {
@@ -26,7 +26,7 @@ a:hover {
 */
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Helvetica", "Arial", "Sans-Serif";
 }
 p {
     font-size: 1.5em;
@@ -44,36 +44,37 @@ p {
     font-family: sans-serif;
 } */
 
-.container{
+.container {
     width: 1140px;
     margin: 0 auto;
 }
 
-.to-uppercase{
+.to-uppercase {
     text-transform: uppercase;
 }
-.clearfix{
+.clearfix {
     clear: both;
 }
 
 /* Main header styles */
 
-.main-header__brand{
+.main-header__brand {
     display: inline-block;
     vertical-align: middle;
 }
-.main-header__brand img{
+.main-header__brand img {
     width: 64px;
 }
-.main-nav{
+.main-nav {
     display: inline-block;
     vertical-align: middle;
 }
-.main-nav__item, .footer-nav__item{
+.main-nav__item,
+.footer-nav__item {
     display: inline-block;
     padding: 10px;
 }
-.main-nav__item a{
+.main-nav__item a {
     color: #05364d;
     text-decoration: none;
     text-transform: uppercase;
@@ -81,30 +82,30 @@ p {
     font-weight: 500;
 }
 
-.main-nav__item a:hover{
+.main-nav__item a:hover {
     color: #efb6df;
 }
-.main-nav__item.active a{
+.main-nav__item.active a {
     color: #efb6df;
 }
 
 /* Main section styles */
 
-.main-section{
+.main-section {
     padding: 100px 30px;
 }
-.main-section > div{
+.main-section > div {
     width: 50%;
     float: left;
 }
 
-.main-section__image{
+.main-section__image {
     text-align: right;
 }
-.main-section__image img{
+.main-section__image img {
     height: 600px;
 }
-.main-section__welcome{
+.main-section__welcome {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -112,36 +113,36 @@ p {
     color: #797979;
 }
 
-.main-section__intro{
+.main-section__intro {
     margin-top: 20px;
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
 }
-.main-section__position{
-    color: #05364E;
+.main-section__position {
+    color: #05364e;
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-.main-section__socials a{
-    color: #8FA1AA;
+.main-section__socials a {
+    color: #8fa1aa;
     font-size: 20px;
     display: inline-block;
     margin-right: 16px;
     cursor: pointer;
 }
 
-.main-section__socials a:hover{
-    color: #1C44E4;
+.main-section__socials a:hover {
+    color: #1c44e4;
 }
 
-.main-section__action{
+.main-section__action {
     margin-top: 30px;
     border: none;
-    background-color: #1C33E4;
-    color: #FFFFFF;
+    background-color: #1c33e4;
+    color: #ffffff;
     font-weight: 500;
     font-size: 14px;
     padding: 20px 40px;
@@ -149,38 +150,45 @@ p {
     border-radius: 5px;
 }
 
-
 /* Statistics section */
-.statistics{
+.statistics {
     padding-top: 100px;
 }
 
-.statistics__item{
+.statistics__item {
     display: inline-block;
-    background-color: #F8FAFF;
+    background-color: #f8faff;
     text-align: center;
     padding: 5px 10px;
     margin-right: 20px;
     width: 150px;
 }
 
-.statistics__number{
+.statistics__number {
     font-size: 27px;
     margin-bottom: 5px;
-    color: #1C44E4;
+    color: #1c44e4;
 }
 
-.statistics__title{
+.statistics__title {
     font-size: 16px;
     color: #787878;
     font-weight: 300;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+.activity-section {
+    padding-top: 100px;
+}
+.activity-section__graph {
+    width: 100%;
+    text-align: center;
 }
