@@ -52,6 +52,11 @@ p {
 .to-uppercase {
     text-transform: uppercase;
 }
+
+.to-center {
+    text-align: center;
+}
+
 .clearfix {
     clear: both;
 }
@@ -185,8 +190,9 @@ ul.posts li {
     list-style: none;
 }
 
+/* My Activity section */
 .activity-section {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .activity-section__graph {
     width: 100%;
